@@ -1,0 +1,11 @@
+{
+	"folders": [],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pro edit",
+		"liveServer.settings.fullReload": true
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}

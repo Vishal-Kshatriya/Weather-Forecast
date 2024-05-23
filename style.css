@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background:url('background.jpeg') no-repeat; */
+    /* background: rgb(25, 47, 92); */
+    background-image: linear-gradient(#192f5c,#1e5b7e,#23678e,#192f5c);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.info{
+    display: inline-block;
+    color: yellow;
+    
+}
+
+.search{
+
+    width:35%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding:5px 3px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 6px;
+    margin-left: -6px;
+    font-size:13px;
+}
+.search button{
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius:50%;
+    width: 35px;
+    height: 35px;
+    cursor:pointer;
+}
+.search button img{
+    width: 16px;
+}
+
+.cityN{
+    position: relative;
+    width: 99%;
+    height: 45px;
+    /* background: slateblue; */
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+
+}
+
+
+.container-weather, .search, .container-pollution {
+    width: 28%; /* Adjust width as needed */
+    
+    padding: 20px;
+}
+
+.weather{
+    /* text-align: center; */
+	font-family: 'Fira Code', monospace;
+	font-size: 3rem;
+	margin-bottom: 25px;
+	color: #eb370a;
+	text-shadow: 3px 3px 2px #023b5c;
+}
+
+
+/* ============================================================================= */
+.polution{
+    /* text-align: center; */
+	font-family: 'Fira Code', monospace;
+	font-size: 3rem;
+	margin-bottom: 25px;
+	color: #eb370a;
+	text-shadow: 3px 3px 2px #023b5c;
+
+}
+
+.container-weather {
+    flex: 1; /* Take up available space */
+    margin-right: 80px; /* Adjust spacing */
+    /* background-color: #00feba; */
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px 40px;
+    /* text-align: center; */
+    box-shadow: 5px 2px 8px rgb(5, 167, 242), 3px 10px 20px rgb(7, 168, 243), 3px 10px 20px;
+    line-height: 1.2;
+    
+}
+.container {
+    width:110%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.search {
+    flex: 1; /* Take up available space */
+    margin: 0 10px; /* Adjust spacing */
+    
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 40px; /* Adjust padding to manage height */
+    text-align: center;
+    box-shadow: 5px 2px 8px rgb(5, 167, 242), 3px 10px 20px rgb(7, 168, 243), 3px 10px 20px;
+    text-shadow: 3px 2px 3px #0ef;
+}
+
+
+.container-pollution {
+    flex: 1; /* Take up available space */
+    margin-left: 80px; /* Adjust spacing */
+    /* background-color: #00feba; */
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px 40px;
+    /* text-align: center; */
+    box-shadow: 5px 2px 8px rgb(5, 167, 242), 3px 10px 20px rgb(7, 168, 243), 3px 10px 20px;
+    /* text-shadow: 3px 2px 3px #0ef; */
+    line-height: 1.5;
+}
+
+/* Flex container */
+.parent {
+    
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    margin: -30px auto 0; /* Adjust vertical margin */
+    max-width: 1200px; /* Adjust max-width if needed */
+}
+
+.F-button{
+         
+        position: absolute;
+        top: 70%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        width: 20%; /* Adjust the width as needed */
+        max-width: 600px; /* Adjust the maximum width as needed */
+        text-align: center;
+        border: 1px solid #ccc; /* Just for visualization */
+        padding: 20px; /* Just for visualization */
+        box-shadow: 5px 2px 8px rgb(5, 167, 242), 3px 10px 20px rgb(7, 168, 243), 3px 10px 20px;
+        border-radius: 20%;
+}
+.forecast-button{
+    cursor: pointer;
+    width: 80%;
+    height: 30px;
+    border-radius: 20%;
+}

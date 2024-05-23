@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Informaion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="parent">
+    <div class="container-weather">
+            <h2 class="weather">Weather</h2>
+            <div>
+                <h2 class="info">Location :</h2>
+                <span class="city-name"></span>
+            </div>
+            <div>
+                <h3 class="info">Temperature : </h3>
+                <span class="temp"></span>
+            </div>
+            <div>
+                <h3 class="info">Feels Like : </h3>
+                <span class="feelslike"></span>
+            </div>
+            <div>
+                <h3 class="info">Humidity : </h3>
+                <span class="humidity"></span>
+            </div>
+            <div>
+                <h3 class="info">Wind Speed : </h3>
+                <span class="wind"></span>
+            </div>
+            <div>
+                <h3 class="info">Wind Direction : </h3>
+                <span class="windDir"></span>
+            </div>
+            <div>
+                <h3 class="info">Cloud : </h3>
+                <span class="cloud"></span>
+            </div>
+            <div>
+                <h3 class="info">Local Time : </h3>
+                <span class="time"></span>
+            </div>
+            <div>
+                <h3 class="info">UV : </h3>
+                <span class="uv"></span>
+            </div>
+            <div>
+                <h3 class="info">Time Zone : </h3>
+                <span class="timeZone"></span>
+            </div>
+            
+    </div>
+            <!-- <hr id="line"> -->
+
+    <div class="container">       
+        <div class="search">
+            <input class="cityN" type="text" placeholder=" Search by city name">
+            <button class="searchBtn"><img src="search.png"></button>
+        </div> 
+        
+    </div> 
+    <div class="container-pollution">
+            <h2 class="polution">Pollution</h2>
+    
+            <div>
+                <h3 class="info">CO : </h3>
+                <span class="co"></span>
+            </div>
+            <div>
+                <h3 class="info">Global Index : </h3>
+                <span class="gb"></span>
+            </div>
+            <div>
+                <h3 class="info">No2 : </h3>
+                <span class="no2"></span>
+            </div>
+            <div>
+                <h3 class="info">O3 : </h3>
+                <span class="o3"></span>
+            </div>
+            <div>
+                <h3 class="info">PM2_5 : </h3>
+                <span class="pm2"></span>
+            </div>
+            <div>
+                <h3 class="info">PM10 : </h3>
+                <span class="pm10"></span>
+            </div>
+            <div>
+                <h3 class="info">So2 : </h3>
+                <span class="so2"></span>
+            </div>
+            <div>
+                <h3 class="info">Index : </h3>
+                <span class="us"></span>
+            </div>
+            
+    </div>
+   
+</div>
+<div class="F-button">
+    <button class="forecast-button" onclick="showWeatherForecast()">Show Weather Forecast</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
